@@ -1,2 +1,394 @@
 <?xml version='1.0' encoding='UTF-8'?>
-<rss xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/" version="2.0"><channel><title>Blog Title</title><link>https://ovkdjnfbs.github.io/1477537305.GitHub.io</link><description>Blog description</description><copyright>Blog Title</copyright><docs>http://www.rssboard.org/rss-specification</docs><generator>python-feedgen</generator><image><url>https://github.githubassets.com/favicons/favicon.svg</url><title>avatar</title><link>https://ovkdjnfbs.github.io/1477537305.GitHub.io</link></image><lastBuildDate>Fri, 11 Jul 2025 01:38:03 +0000</lastBuildDate><managingEditor>Blog Title</managingEditor><ttl>60</ttl><webMaster>Blog Title</webMaster><item><title>DeepSeek 要求</title><link>https://ovkdjnfbs.github.io/1477537305.GitHub.io/post/DeepSeek%20-yao-qiu.html</link><description>&lt;img width='766' height='2161' alt='Image' src='https://github.com/user-attachments/assets/baa8a2e1-1690-4816-9997-fb4c28b784cc' /&gt;。</description><guid isPermaLink="true">https://ovkdjnfbs.github.io/1477537305.GitHub.io/post/DeepSeek%20-yao-qiu.html</guid><pubDate>Fri, 11 Jul 2025 01:37:32 +0000</pubDate></item></channel></rss>
+<rss xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/" version="2.0"><channel><title>Blog Title</title><link>https://ovkdjnfbs.github.io/1477537305.GitHub.io</link><description>Blog description</description><copyright>Blog Title</copyright><docs>http://www.rssboard.org/rss-specification</docs><generator>python-feedgen</generator><image><url>https://github.githubassets.com/favicons/favicon.svg</url><title>avatar</title><link>https://ovkdjnfbs.github.io/1477537305.GitHub.io</link></image><lastBuildDate>Fri, 11 Jul 2025 01:46:53 +0000</lastBuildDate><managingEditor>Blog Title</managingEditor><ttl>60</ttl><webMaster>Blog Title</webMaster><item><title>DeepSeek 学习备注</title><link>https://ovkdjnfbs.github.io/1477537305.GitHub.io/post/DeepSeek%20-xue-xi-bei-zhu.html</link><description>&lt;img width='798' height='336' alt='Image' src='https://github.com/user-attachments/assets/d4808c16-bf24-47e9-8f71-40d5c2fe2c12' /&gt;
+
+&lt;img width='251' height='28' alt='Image' src='https://github.com/user-attachments/assets/611fc653-eb7f-4403-a394-61ffc3abc4ac' /&gt;
+
+&lt;img width='756' height='210' alt='Image' src='https://github.com/user-attachments/assets/fb541ff7-c493-49e5-a623-7164d9237bf6' /&gt;
+
+&lt;img width='387' height='151' alt='Image' src='https://github.com/user-attachments/assets/e0283aa5-f248-4d49-b6c0-3d796b4845ed' /&gt;
+
+&lt;img width='588' height='276' alt='Image' src='https://github.com/user-attachments/assets/479640f3-3c88-40d8-a3f3-3e9d211015da' /&gt;
+&lt;html xmlns:o='urn:schemas-microsoft-com:office:office'
+xmlns:dt='uuid:C2F41010-65B3-11d1-A29F-00AA00C14882'
+xmlns='http://www.w3.org/TR/REC-html40'&gt;
+
+&lt;head&gt;
+
+&lt;meta name=ProgId content=OneNote.File&gt;
+&lt;meta name=Generator content='Microsoft OneNote 15'&gt;
+&lt;/head&gt;
+
+&lt;body lang=zh-CN style='font-family:Calibri;font-size:11.0pt'&gt;
+&lt;!--StartFragment--&gt;
+
+&lt;p style='margin-left:.375in;margin-top:13pt;margin-bottom:10pt;font-family:
+quote-cjk-patch;font-size:13.7pt;color:#404040'&gt;&lt;span style='background:white'&gt;一、基础概念层&lt;/span&gt;&lt;/p&gt;
+
+&lt;ol type=1 style='direction:ltr;unicode-bidi:embed;margin-top:0in;margin-bottom:
+ 0in;font-family:Calibri;font-size:12.0pt;font-weight:normal;font-style:normal'&gt;
+ &lt;li value=1 style='margin-top:0;margin-bottom:0;vertical-align:middle;
+     margin-top:0pt;margin-bottom:3pt;line-height:21pt;color:#404040'&gt;&lt;span
+     style='font-family:quote-cjk-patch;font-size:12.0pt;font-weight:normal;
+     font-style:normal;font-family:quote-cjk-patch;font-size:12.0pt;background:
+     white'&gt;向量运算&lt;/span&gt;&lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;ul type=disc style='direction:ltr;unicode-bidi:embed;margin-top:0in;
+ margin-bottom:0in'&gt;
+ &lt;li style='margin-top:0;margin-bottom:0;vertical-align:middle;margin-top:0pt;
+     margin-bottom:3pt;line-height:21pt;color:#404040'&gt;&lt;span style='font-family:
+     quote-cjk-patch;font-size:12.0pt;background:white'&gt;点积（内积）&lt;/span&gt;&lt;/li&gt;
+ &lt;li style='margin-top:0;margin-bottom:0;vertical-align:middle;color:#404040'&gt;&lt;span
+     style='font-family:quote-cjk-patch;font-size:12.0pt;background:white'&gt;公式：&lt;/span&gt;&lt;span
+     style='font-family:Menlo;font-size:10.0pt;background:#ECECEC'&gt;a·b =
+     Σ(aᵢbᵢ)&lt;/span&gt;&lt;/li&gt;
+ &lt;li style='margin-top:0;margin-bottom:0;vertical-align:middle;color:#404040'&gt;&lt;span
+     style='font-family:quote-cjk-patch;font-size:12.0pt;background:white'&gt;应用：计算夹角、投影（图形学光照计算）&lt;/span&gt;&lt;/li&gt;
+ &lt;li style='margin-top:0;margin-bottom:0;vertical-align:middle;margin-top:0pt;
+     margin-bottom:3pt;line-height:21pt;color:#404040'&gt;&lt;span style='font-family:
+     quote-cjk-patch;font-size:12.0pt;background:white'&gt;叉积（三维）&lt;/span&gt;&lt;/li&gt;
+ &lt;li style='margin-top:0;margin-bottom:0;vertical-align:middle;color:#404040'&gt;&lt;span
+     style='font-family:quote-cjk-patch;font-size:12.0pt;background:white'&gt;公式：&lt;/span&gt;&lt;span
+     style='font-family:Menlo;font-size:10.0pt;background:#ECECEC'&gt;a×b =
+     [a₂b₃-a₃b₂, a₃b₁-a₁b₃, a₁b₂-a₂b₁]&lt;/span&gt;&lt;/li&gt;
+ &lt;li style='margin-top:0;margin-bottom:0;vertical-align:middle;color:#404040'&gt;&lt;span
+     style='font-family:quote-cjk-patch;font-size:12.0pt;background:white'&gt;应用：求平面法向量（3D建模）&lt;/span&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;ol type=1 style='direction:ltr;unicode-bidi:embed;margin-top:0in;margin-bottom:
+ 0in;font-family:Calibri;font-size:12.0pt;font-weight:normal;font-style:normal'&gt;
+ &lt;li value=2 style='margin-top:0;margin-bottom:0;vertical-align:middle;
+     margin-top:0pt;margin-bottom:3pt;line-height:21pt;color:#404040'&gt;&lt;span
+     style='font-family:quote-cjk-patch;font-size:12.0pt;font-weight:normal;
+     font-style:normal;font-family:quote-cjk-patch;font-size:12.0pt;background:
+     white'&gt;矩阵基本操作&lt;/span&gt;&lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;ul type=disc style='direction:ltr;unicode-bidi:embed;margin-top:0in;
+ margin-bottom:0in'&gt;
+ &lt;li style='margin-top:0;margin-bottom:0;vertical-align:middle;margin-top:0pt;
+     margin-bottom:3pt;line-height:21pt;color:#404040'&gt;&lt;span style='font-family:
+     quote-cjk-patch;font-size:12.0pt;background:white'&gt;乘法规则&lt;br&gt;
+          &lt;/span&gt;&lt;span style='font-family:Menlo;font-size:10.0pt;background:
+     #ECECEC'&gt;Cᵢⱼ = Σ(AᵢₖBₖⱼ)&lt;/span&gt;&lt;/li&gt;
+ &lt;li style='margin-top:0;margin-bottom:0;vertical-align:middle;color:#404040'&gt;&lt;span
+     style='font-family:quote-cjk-patch;font-size:12.0pt;background:white'&gt;关键：仅当A列数=B行数时可乘&lt;/span&gt;&lt;/li&gt;
+ &lt;li style='margin-top:0;margin-bottom:0;vertical-align:middle;margin-top:0pt;
+     margin-bottom:3pt;line-height:21pt;color:#404040'&gt;&lt;span style='font-family:
+     quote-cjk-patch;font-size:12.0pt;background:white'&gt;转置&lt;br&gt;
+          &lt;/span&gt;&lt;span style='font-family:Menlo;font-size:10.0pt;background:
+     #ECECEC'&gt;(Aᵀ)ᵢⱼ = Aⱼᵢ&lt;/span&gt;&lt;/li&gt;
+ &lt;li style='margin-top:0;margin-bottom:0;vertical-align:middle;color:#404040'&gt;&lt;span
+     style='font-family:quote-cjk-patch;font-size:12.0pt;background:white'&gt;应用：神经网络权重更新&lt;/span&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p style='margin:0in;margin-left:.375in;font-family:Calibri;font-size:11.0pt'&gt;&amp;nbsp;&lt;/p&gt;
+
+&lt;p style='margin-left:.375in;margin-top:13pt;margin-bottom:10pt;font-family:
+quote-cjk-patch;font-size:13.7pt;color:#404040'&gt;&lt;span style='background:white'&gt;二、核心理论层&lt;/span&gt;&lt;/p&gt;
+
+&lt;ol type=1 style='direction:ltr;unicode-bidi:embed;margin-top:0in;margin-bottom:
+ 0in;font-family:Calibri;font-size:12.0pt;font-weight:normal;font-style:normal'&gt;
+ &lt;li value=1 style='margin-top:0;margin-bottom:0;vertical-align:middle;
+     margin-top:0pt;margin-bottom:3pt;line-height:21pt;color:#404040'&gt;&lt;span
+     style='font-family:quote-cjk-patch;font-size:12.0pt;font-weight:normal;
+     font-style:normal;font-family:quote-cjk-patch;font-size:12.0pt;background:
+     white'&gt;矩阵求逆&lt;/span&gt;&lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;ul type=disc style='direction:ltr;unicode-bidi:embed;margin-top:0in;
+ margin-bottom:0in'&gt;
+ &lt;li style='margin-top:0;margin-bottom:0;vertical-align:middle;color:#404040'&gt;&lt;span
+     style='font-family:quote-cjk-patch;font-size:12.0pt;background:white'&gt;可逆条件：&lt;/span&gt;&lt;span
+     style='font-family:Menlo;font-size:10.0pt;background:#ECECEC'&gt;det(A) ≠ 0&lt;/span&gt;&lt;/li&gt;
+ &lt;li style='margin-top:0;margin-bottom:0;vertical-align:middle;margin-top:0pt;
+     margin-bottom:3pt;line-height:21pt;color:#404040'&gt;&lt;span style='font-family:
+     quote-cjk-patch;font-size:12.0pt;color:#404040;background:white'&gt;2×2矩阵公式：&lt;br&gt;
+          &lt;/span&gt;&lt;span style='font-family:quote-cjk-patch;font-size:9.0pt;
+     color:#525252;background:white'&gt;text&lt;br&gt;
+          &lt;/span&gt;&lt;span style='font-family:quote-cjk-patch;font-size:9.45pt;
+     color:#494949;background:white'&gt;A⁻¹ = (1/det(A)) * [d -b; -c a]&lt;/span&gt;&lt;/li&gt;
+ &lt;li style='margin-top:0;margin-bottom:0;vertical-align:middle;color:#404040'&gt;&lt;span
+     style='font-family:quote-cjk-patch;font-size:12.0pt;background:white'&gt;应用：解线性方程组&amp;nbsp;&lt;/span&gt;&lt;span
+     style='font-family:Menlo;font-size:10.0pt;background:#ECECEC'&gt;Ax = b&lt;/span&gt;&lt;span
+     style='font-family:quote-cjk-patch;font-size:12.0pt;background:white'&gt;&amp;nbsp;→&amp;nbsp;&lt;/span&gt;&lt;span
+     style='font-family:Menlo;font-size:10.0pt;background:#ECECEC'&gt;x = A⁻¹b&lt;/span&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;ol type=1 style='direction:ltr;unicode-bidi:embed;margin-top:0in;margin-bottom:
+ 0in;font-family:Calibri;font-size:12.0pt;font-weight:normal;font-style:normal'&gt;
+ &lt;li value=2 style='margin-top:0;margin-bottom:0;vertical-align:middle;
+     margin-top:0pt;margin-bottom:3pt;line-height:21pt;color:#404040'&gt;&lt;span
+     style='font-family:quote-cjk-patch;font-size:12.0pt;font-weight:normal;
+     font-style:normal;font-family:quote-cjk-patch;font-size:12.0pt;background:
+     white'&gt;行列式&lt;/span&gt;&lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;ul type=disc style='direction:ltr;unicode-bidi:embed;margin-top:0in;
+ margin-bottom:0in'&gt;
+ &lt;li style='margin-top:0;margin-bottom:0;vertical-align:middle;color:#404040'&gt;&lt;span
+     style='font-family:quote-cjk-patch;font-size:12.0pt;background:white'&gt;几何意义：线性变换的缩放因子&lt;/span&gt;&lt;/li&gt;
+ &lt;li style='margin-top:0;margin-bottom:0;vertical-align:middle;margin-top:0pt;
+     margin-bottom:3pt;line-height:21pt;color:#404040'&gt;&lt;span style='font-family:
+     quote-cjk-patch;font-size:12.0pt;background:white'&gt;计算方法：&lt;/span&gt;&lt;/li&gt;
+ &lt;li style='margin-top:0;margin-bottom:0;vertical-align:middle;color:#404040'&gt;&lt;span
+     style='font-family:quote-cjk-patch;font-size:12.0pt;background:white'&gt;2×2：&lt;/span&gt;&lt;span
+     style='font-family:Menlo;font-size:10.0pt;background:#ECECEC'&gt;det(A) = ad
+     - bc&lt;/span&gt;&lt;/li&gt;
+ &lt;li style='margin-top:0;margin-bottom:0;vertical-align:middle;color:#404040'&gt;&lt;span
+     style='font-family:quote-cjk-patch;font-size:12.0pt;background:white'&gt;3×3：对角线法则（Sarrus规则）&lt;/span&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;ol type=1 style='direction:ltr;unicode-bidi:embed;margin-top:0in;margin-bottom:
+ 0in;font-family:Calibri;font-size:12.0pt;font-weight:normal;font-style:normal'&gt;
+ &lt;li value=3 style='margin-top:0;margin-bottom:0;vertical-align:middle;
+     margin-top:0pt;margin-bottom:3pt;line-height:21pt;color:#404040'&gt;&lt;span
+     style='font-family:quote-cjk-patch;font-size:12.0pt;font-weight:normal;
+     font-style:normal;font-family:quote-cjk-patch;font-size:12.0pt;background:
+     white'&gt;特征值与特征向量&lt;/span&gt;&lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;ul type=disc style='direction:ltr;unicode-bidi:embed;margin-top:0in;
+ margin-bottom:0in'&gt;
+ &lt;li style='margin-top:0;margin-bottom:0;vertical-align:middle;color:#404040'&gt;&lt;span
+     style='font-family:quote-cjk-patch;font-size:12.0pt;background:white'&gt;定义：&lt;/span&gt;&lt;span
+     style='font-family:Menlo;font-size:10.0pt;background:#ECECEC'&gt;Av = λv&lt;/span&gt;&lt;/li&gt;
+ &lt;li style='margin-top:0;margin-bottom:0;vertical-align:middle;margin-top:0pt;
+     margin-bottom:3pt;line-height:21pt;color:#404040'&gt;&lt;span style='font-family:
+     quote-cjk-patch;font-size:12.0pt;background:white'&gt;求解步骤：&lt;/span&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;ol type=1 style='direction:ltr;unicode-bidi:embed;margin-top:0in;margin-bottom:
+ 0in;font-family:Calibri;font-size:12.0pt;font-weight:normal;font-style:normal'&gt;
+ &lt;li value=1 style='margin-top:0;margin-bottom:0;vertical-align:middle;
+     color:#404040'&gt;&lt;span style='font-family:quote-cjk-patch;font-size:12.0pt;
+     font-weight:normal;font-style:normal;font-family:quote-cjk-patch;
+     font-size:12.0pt;background:white'&gt;解特征方程&amp;nbsp;&lt;/span&gt;&lt;span
+     style='font-family:Menlo;font-size:10.0pt;font-weight:normal;font-style:
+     normal;font-family:Menlo;font-size:10.0pt;background:#ECECEC'&gt;det(A - λI)
+     = 0&lt;/span&gt;&lt;/li&gt;
+ &lt;li style='margin-top:0;margin-bottom:0;vertical-align:middle;color:#404040'&gt;&lt;span
+     style='font-family:quote-cjk-patch;font-size:12.0pt;background:white'&gt;对每个λ求&lt;/span&gt;&lt;span
+     style='font-family:Menlo;font-size:10.0pt;background:#ECECEC'&gt;(A - λI)v =
+     0&lt;/span&gt;&lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;ul type=disc style='direction:ltr;unicode-bidi:embed;margin-top:0in;
+ margin-bottom:0in'&gt;
+ &lt;li style='margin-top:0;margin-bottom:0;vertical-align:middle;color:#404040'&gt;&lt;span
+     style='font-family:quote-cjk-patch;font-size:12.0pt;background:white'&gt;应用：PCA降维、物理系统稳定性分析&lt;/span&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p style='margin:0in;margin-left:.375in;font-family:Calibri;font-size:11.0pt'&gt;&amp;nbsp;&lt;/p&gt;
+
+&lt;p style='margin-left:.375in;margin-top:13pt;margin-bottom:10pt;font-family:
+quote-cjk-patch;font-size:13.7pt;color:#404040'&gt;&lt;span style='background:white'&gt;三、几何应用层&lt;/span&gt;&lt;/p&gt;
+
+&lt;ol type=1 style='direction:ltr;unicode-bidi:embed;margin-top:0in;margin-bottom:
+ 0in;font-family:Calibri;font-size:12.0pt;font-weight:normal;font-style:normal'&gt;
+ &lt;li value=1 style='margin-top:0;margin-bottom:0;vertical-align:middle;
+     margin-top:0pt;margin-bottom:3pt;line-height:21pt;color:#404040'&gt;&lt;span
+     style='font-family:quote-cjk-patch;font-size:12.0pt;font-weight:normal;
+     font-style:normal;font-family:quote-cjk-patch;font-size:12.0pt;background:
+     white'&gt;线性变换&lt;/span&gt;&lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;ul type=disc style='direction:ltr;unicode-bidi:embed;margin-top:0in;
+ margin-bottom:0in'&gt;
+ &lt;li style='margin-top:0;margin-bottom:0;vertical-align:middle;margin-top:0pt;
+     margin-bottom:3pt;line-height:21pt;color:#404040'&gt;&lt;span style='font-family:
+     quote-cjk-patch;font-size:12.0pt;color:#404040;background:white'&gt;旋转矩阵（2D）：&lt;br&gt;
+          &lt;/span&gt;&lt;span style='font-family:quote-cjk-patch;font-size:9.0pt;
+     color:#525252;background:white'&gt;text&lt;br&gt;
+          &lt;/span&gt;&lt;span style='font-family:quote-cjk-patch;font-size:9.45pt;
+     color:#494949;background:white'&gt;[cosθ -sinθ]&lt;br&gt;
+          [sinθ&lt;span style='mso-spacerun:yes'&gt;  &lt;/span&gt;cosθ]&lt;/span&gt;&lt;/li&gt;
+ &lt;li style='margin-top:0;margin-bottom:0;vertical-align:middle;margin-top:0pt;
+     margin-bottom:3pt;line-height:21pt;color:#404040'&gt;&lt;span style='font-family:
+     quote-cjk-patch;font-size:12.0pt;color:#404040;background:white'&gt;缩放矩阵：&lt;br&gt;
+          &lt;/span&gt;&lt;span style='font-family:quote-cjk-patch;font-size:9.0pt;
+     color:#525252;background:white'&gt;text&lt;br&gt;
+          &lt;/span&gt;&lt;span style='font-family:quote-cjk-patch;font-size:9.45pt;
+     color:#494949;background:white'&gt;[sx&lt;span style='mso-spacerun:yes'&gt; 
+     &lt;/span&gt;0]&lt;br&gt;
+          [0&lt;span style='mso-spacerun:yes'&gt;  &lt;/span&gt;sy]&lt;/span&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;ol type=1 style='direction:ltr;unicode-bidi:embed;margin-top:0in;margin-bottom:
+ 0in;font-family:Calibri;font-size:12.0pt;font-weight:normal;font-style:normal'&gt;
+ &lt;li value=2 style='margin-top:0;margin-bottom:0;vertical-align:middle;
+     margin-top:0pt;margin-bottom:3pt;line-height:21pt;color:#404040'&gt;&lt;span
+     style='font-family:quote-cjk-patch;font-size:12.0pt;font-weight:normal;
+     font-style:normal;font-family:quote-cjk-patch;font-size:12.0pt;background:
+     white'&gt;齐次坐标（图形学关键）&lt;/span&gt;&lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;ul type=disc style='direction:ltr;unicode-bidi:embed;margin-top:0in;
+ margin-bottom:0in'&gt;
+ &lt;li style='margin-top:0;margin-bottom:0;vertical-align:middle;color:#404040'&gt;&lt;span
+     style='font-family:quote-cjk-patch;font-size:12.0pt;background:white'&gt;3D点表示为&lt;/span&gt;&lt;span
+     style='font-family:Menlo;font-size:10.0pt;background:#ECECEC'&gt;[x, y, z, 1]&lt;/span&gt;&lt;/li&gt;
+ &lt;li style='margin-top:0;margin-bottom:0;vertical-align:middle;margin-top:0pt;
+     margin-bottom:3pt;line-height:21pt;color:#404040'&gt;&lt;span style='font-family:
+     quote-cjk-patch;font-size:12.0pt;color:#404040;background:white'&gt;变换矩阵示例（平移）：&lt;br&gt;
+          &lt;/span&gt;&lt;span style='font-family:quote-cjk-patch;font-size:9.0pt;
+     color:#525252;background:white'&gt;text&lt;br&gt;
+          &lt;/span&gt;&lt;span style='font-family:quote-cjk-patch;font-size:9.45pt;
+     color:#494949;background:white'&gt;[1 0 0 tx]&lt;br&gt;
+          [0 1 0 ty]&lt;br&gt;
+          [0 0 1 tz]&lt;br&gt;
+          [0 0 0 1]&lt;/span&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p style='margin:0in;margin-left:.375in;font-family:Calibri;font-size:11.0pt'&gt;&amp;nbsp;&lt;/p&gt;
+
+&lt;p style='margin-left:.375in;margin-top:13pt;margin-bottom:10pt;font-family:
+quote-cjk-patch;font-size:13.7pt;color:#404040'&gt;&lt;span style='background:white'&gt;四、数值计算层&lt;/span&gt;&lt;/p&gt;
+
+&lt;ol type=1 style='direction:ltr;unicode-bidi:embed;margin-top:0in;margin-bottom:
+ 0in;font-family:Calibri;font-size:12.0pt;font-weight:normal;font-style:normal'&gt;
+ &lt;li value=1 style='margin-top:0;margin-bottom:0;vertical-align:middle;
+     margin-top:0pt;margin-bottom:3pt;line-height:21pt;color:#404040'&gt;&lt;span
+     style='font-family:quote-cjk-patch;font-size:12.0pt;font-weight:normal;
+     font-style:normal;font-family:quote-cjk-patch;font-size:12.0pt;background:
+     white'&gt;矩阵分解&lt;/span&gt;&lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;ul type=disc style='direction:ltr;unicode-bidi:embed;margin-top:0in;
+ margin-bottom:0in'&gt;
+ &lt;li style='margin-top:0;margin-bottom:0;vertical-align:middle;color:#404040'&gt;&lt;span
+     style='font-family:quote-cjk-patch;font-size:12.0pt;background:white'&gt;LU分解：解方程组的高效方法&lt;/span&gt;&lt;/li&gt;
+ &lt;li style='margin-top:0;margin-bottom:0;vertical-align:middle;color:#404040'&gt;&lt;span
+     style='font-family:quote-cjk-patch;font-size:12.0pt;background:white'&gt;QR分解：最小二乘拟合&lt;/span&gt;&lt;/li&gt;
+ &lt;li style='margin-top:0;margin-bottom:0;vertical-align:middle;color:#404040'&gt;&lt;span
+     style='font-family:quote-cjk-patch;font-size:12.0pt;background:white'&gt;SVD分解：推荐系统、图像压缩&lt;/span&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;ol type=1 style='direction:ltr;unicode-bidi:embed;margin-top:0in;margin-bottom:
+ 0in;font-family:Calibri;font-size:12.0pt;font-weight:normal;font-style:normal'&gt;
+ &lt;li value=2 style='margin-top:0;margin-bottom:0;vertical-align:middle;
+     margin-top:0pt;margin-bottom:3pt;line-height:21pt;color:#404040'&gt;&lt;span
+     style='font-family:quote-cjk-patch;font-size:12.0pt;font-weight:normal;
+     font-style:normal;font-family:quote-cjk-patch;font-size:12.0pt;background:
+     white'&gt;稀疏矩阵优化&lt;/span&gt;&lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;ul type=disc style='direction:ltr;unicode-bidi:embed;margin-top:0in;
+ margin-bottom:0in'&gt;
+ &lt;li style='margin-top:0;margin-bottom:0;vertical-align:middle;margin-top:0pt;
+     margin-bottom:3pt;line-height:21pt;color:#404040'&gt;&lt;span style='font-family:
+     quote-cjk-patch;font-size:12.0pt;background:white'&gt;CSR存储格式：&lt;/span&gt;&lt;/li&gt;
+ &lt;li style='margin-top:0;margin-bottom:0;vertical-align:middle;color:#404040'&gt;&lt;span
+     style='font-family:quote-cjk-patch;font-size:12.0pt;background:white'&gt;非零值数组：&lt;/span&gt;&lt;span
+     style='font-family:Menlo;font-size:10.0pt;background:#ECECEC'&gt;data = [a,
+     b, c, d]&lt;/span&gt;&lt;/li&gt;
+ &lt;li style='margin-top:0;margin-bottom:0;vertical-align:middle;color:#404040'&gt;&lt;span
+     style='font-family:quote-cjk-patch;font-size:12.0pt;background:white'&gt;行指针：&lt;/span&gt;&lt;span
+     style='font-family:Menlo;font-size:10.0pt;background:#ECECEC'&gt;row_ptr =
+     [0, 2, 3]&lt;/span&gt;&lt;/li&gt;
+ &lt;li style='margin-top:0;margin-bottom:0;vertical-align:middle;color:#404040'&gt;&lt;span
+     style='font-family:quote-cjk-patch;font-size:12.0pt;background:white'&gt;列索引：&lt;/span&gt;&lt;span
+     style='font-family:Menlo;font-size:10.0pt;background:#ECECEC'&gt;col_idx =
+     [0, 1, 0]&lt;/span&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p style='margin:0in;margin-left:.375in;font-family:Calibri;font-size:11.0pt'&gt;&amp;nbsp;&lt;/p&gt;
+
+&lt;p style='margin-left:.375in;margin-top:13pt;margin-bottom:10pt;font-family:
+quote-cjk-patch;font-size:13.7pt;color:#404040'&gt;&lt;span style='background:white'&gt;五、现代应用领域&lt;/span&gt;&lt;/p&gt;
+
+&lt;ol type=1 style='direction:ltr;unicode-bidi:embed;margin-top:0in;margin-bottom:
+ 0in;font-family:Calibri;font-size:12.0pt;font-weight:normal;font-style:normal'&gt;
+ &lt;li value=1 style='margin-top:0;margin-bottom:0;vertical-align:middle;
+     margin-top:0pt;margin-bottom:3pt;line-height:21pt;color:#404040'&gt;&lt;span
+     style='font-family:quote-cjk-patch;font-size:12.0pt;font-weight:normal;
+     font-style:normal;font-family:quote-cjk-patch;font-size:12.0pt;background:
+     white'&gt;计算机图形学&lt;/span&gt;&lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;ul type=disc style='direction:ltr;unicode-bidi:embed;margin-top:0in;
+ margin-bottom:0in'&gt;
+ &lt;li style='margin-top:0;margin-bottom:0;vertical-align:middle;color:#404040'&gt;&lt;span
+     style='font-family:quote-cjk-patch;font-size:12.0pt;background:white'&gt;MVP矩阵：&lt;/span&gt;&lt;span
+     style='font-family:Menlo;font-size:10.0pt;background:#ECECEC'&gt;Model × View
+     × Projection&lt;/span&gt;&lt;/li&gt;
+ &lt;li style='margin-top:0;margin-bottom:0;vertical-align:middle;color:#404040'&gt;&lt;span
+     style='font-family:quote-cjk-patch;font-size:12.0pt;background:white'&gt;法线变换：&lt;/span&gt;&lt;span
+     style='font-family:Menlo;font-size:10.0pt;background:#ECECEC'&gt;(M⁻¹)ᵀ·n&lt;/span&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;ol type=1 style='direction:ltr;unicode-bidi:embed;margin-top:0in;margin-bottom:
+ 0in;font-family:Calibri;font-size:12.0pt;font-weight:normal;font-style:normal'&gt;
+ &lt;li value=2 style='margin-top:0;margin-bottom:0;vertical-align:middle;
+     margin-top:0pt;margin-bottom:3pt;line-height:21pt;color:#404040'&gt;&lt;span
+     style='font-family:quote-cjk-patch;font-size:12.0pt;font-weight:normal;
+     font-style:normal;font-family:quote-cjk-patch;font-size:12.0pt;background:
+     white'&gt;机器学习&lt;/span&gt;&lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;ul type=disc style='direction:ltr;unicode-bidi:embed;margin-top:0in;
+ margin-bottom:0in'&gt;
+ &lt;li style='margin-top:0;margin-bottom:0;vertical-align:middle;color:#404040'&gt;&lt;span
+     style='font-family:quote-cjk-patch;font-size:12.0pt;background:white'&gt;梯度下降：&lt;/span&gt;&lt;span
+     style='font-family:Menlo;font-size:10.0pt;background:#ECECEC'&gt;w = w -
+     α(XᵀX)⁻¹Xᵀy&lt;/span&gt;&lt;/li&gt;
+ &lt;li style='margin-top:0;margin-bottom:0;vertical-align:middle;color:#404040'&gt;&lt;span
+     style='font-family:quote-cjk-patch;font-size:12.0pt;background:white'&gt;卷积运算：本质是稀疏矩阵乘法&lt;/span&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;ol type=1 style='direction:ltr;unicode-bidi:embed;margin-top:0in;margin-bottom:
+ 0in;font-family:Calibri;font-size:12.0pt;font-weight:normal;font-style:normal'&gt;
+ &lt;li value=3 style='margin-top:0;margin-bottom:0;vertical-align:middle;
+     margin-top:0pt;margin-bottom:3pt;line-height:21pt;color:#404040'&gt;&lt;span
+     style='font-family:quote-cjk-patch;font-size:12.0pt;font-weight:normal;
+     font-style:normal;font-family:quote-cjk-patch;font-size:12.0pt;background:
+     white'&gt;量子计算&lt;/span&gt;&lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;ul type=disc style='direction:ltr;unicode-bidi:embed;margin-top:0in;
+ margin-bottom:0in'&gt;
+ &lt;li style='margin-top:0;margin-bottom:0;vertical-align:middle;color:#404040'&gt;&lt;span
+     style='font-family:quote-cjk-patch;font-size:12.0pt;background:white'&gt;量子门操作表示为酉矩阵（&lt;/span&gt;&lt;span
+     style='font-family:Menlo;font-size:10.0pt;background:#ECECEC'&gt;U†U = I&lt;/span&gt;&lt;span
+     style='font-family:quote-cjk-patch;font-size:12.0pt;background:white'&gt;）&lt;/span&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p style='margin:0in;margin-left:.375in;font-family:Calibri;font-size:11.0pt'&gt;&amp;nbsp;&lt;/p&gt;
+
+&lt;p style='margin-left:.375in;margin-top:13pt;margin-bottom:10pt;font-family:
+quote-cjk-patch;font-size:13.7pt;color:#404040'&gt;&lt;span style='background:white'&gt;六、关键公式速查表&lt;/span&gt;&lt;/p&gt;
+
+&lt;div style='direction:ltr'&gt;
+
+
+概念 | 公式 | 应用场景
+-- | -- | --
+点积 | a·b = \|a\|\|b\|cosθ | 光照计算
+叉积模长 | \|a×b\| = \|a\|\|b\|sinθ | 计算平行四边形面积
+矩阵迹 | tr(A) = ΣAᵢᵢ | 特征值求和
+伴随矩阵 | adj(A) = Cᵀ (C为余子式矩阵) | 求逆矩阵
+
+
+
+&lt;/div&gt;
+
+&lt;p style='margin:0in;margin-left:.375in;font-family:Calibri;font-size:11.0pt'&gt;&amp;nbsp;&lt;/p&gt;
+
+&lt;p style='margin-left:.375in;margin-top:13pt;margin-bottom:10pt;font-family:
+quote-cjk-patch;font-size:13.7pt;color:#404040'&gt;&lt;span style='background:white'&gt;七、学习路径建议&lt;/span&gt;&lt;/p&gt;
+
+&lt;ol type=1 style='direction:ltr;unicode-bidi:embed;margin-top:0in;margin-bottom:
+ 0in;font-family:Calibri;font-size:12.0pt;font-weight:normal;font-style:normal'&gt;
+ &lt;li value=1 style='margin-top:0;margin-bottom:0;vertical-align:middle;
+     color:#404040'&gt;&lt;span style='font-family:quote-cjk-patch;font-size:12.0pt;
+     font-weight:normal;font-style:normal;font-family:quote-cjk-patch;
+     font-size:12.0pt;background:white'&gt;入门：掌握2×2/3×3矩阵运算&lt;/span&gt;&lt;/li&gt;
+ &lt;li style='margin-top:0;margin-bottom:0;vertical-align:middle;color:#404040'&gt;&lt;span
+     style='font-family:quote-cjk-patch;font-size:12.0pt;background:white'&gt;进阶：理解秩、线性空间、基变换&lt;/span&gt;&lt;/li&gt;
+ &lt;li style='margin-top:0;margin-bottom:0;vertical-align:middle;color:#404040'&gt;&lt;span
+     style='font-family:quote-cjk-patch;font-size:12.0pt;background:white'&gt;高阶：学习张量运算（深度学习框架底层）&lt;/span&gt;&lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;p style='margin:0in;margin-left:.375in;font-size:11.0pt'&gt;&lt;span
+style='font-family:'Microsoft YaHei''&gt;这些知识点构成了从数学基础到工程应用的完整链条，建议通过实际编程（如&lt;/span&gt;&lt;span
+style='font-family:Calibri'&gt;NumPy/SciPy&lt;/span&gt;&lt;span style='font-family:'Microsoft YaHei''&gt;）深化理解。</description><guid isPermaLink="true">https://ovkdjnfbs.github.io/1477537305.GitHub.io/post/DeepSeek%20-xue-xi-bei-zhu.html</guid><pubDate>Fri, 11 Jul 2025 01:46:25 +0000</pubDate></item><item><title>DeepSeek 要求</title><link>https://ovkdjnfbs.github.io/1477537305.GitHub.io/post/DeepSeek%20-yao-qiu.html</link><description>&lt;img width='766' height='2161' alt='Image' src='https://github.com/user-attachments/assets/baa8a2e1-1690-4816-9997-fb4c28b784cc' /&gt;。</description><guid isPermaLink="true">https://ovkdjnfbs.github.io/1477537305.GitHub.io/post/DeepSeek%20-yao-qiu.html</guid><pubDate>Fri, 11 Jul 2025 01:37:32 +0000</pubDate></item></channel></rss>
